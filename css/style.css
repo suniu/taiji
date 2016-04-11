@@ -10,7 +10,9 @@ margin-top: -15px;
 
 }
 
-
+body{
+	margin: 0;
+}
 
 .inner-img{
 vertical-align: middle;
@@ -41,7 +43,6 @@ margin-top: 0.5%;
 
 .navbar-right{
 	margin-right: 20px;
-
 
 }
 
@@ -114,15 +115,38 @@ transition: opacity .5s;
 	font-size: 20px;
 }
 
-.dropdown-menu{
+.menu1{
 	right:0;
 	left:inherit;
 }
 
-.dropdown a{
+.dropdown .right-a{
 	text-align: right;
 }
 
 .fa.fa-shopping-cart{
 	font-size: 20px;
+}
+
+.leftnav{
+	display: none;
+}
+
+@media(max-width: 767px) {
+
+ 
+
+  .navbar-right {
+    display: none;
+  }
+
+.leftnav{
+	display: normal;
+}
+ /* .mobile-nav {
+    display: block;
+  }*/
+
+ 
+
 }
