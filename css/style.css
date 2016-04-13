@@ -103,26 +103,34 @@ transition: opacity .5s;
 .footer div{
 	clear:both;
 	background-color: black;
+}
 
 	
-}
+
 .footer h5{
 	/*padding-left-left: 50px;*/
 	margin-left: 30px;
 }
 
+
+	
+
 .fa.fa-user {
 	font-size: 20px;
 }
 
-.menu1{
+.dropdown-menu{
 	right:0;
 	left:inherit;
 }
 
-.dropdown .right-a{
-	text-align: right;
+
+.dropdown a{
+text-align: right;
+
 }
+
+
 
 .fa.fa-shopping-cart{
 	font-size: 20px;
@@ -132,6 +140,10 @@ transition: opacity .5s;
 	display: none;
 }
 
+/*.leftnav li{
+	text-align: right;
+}
+*/
 @media(max-width: 767px) {
 
  
@@ -141,11 +153,23 @@ transition: opacity .5s;
   }
 
 .leftnav{
-	display: normal;
+	display: block;
 }
- /* .mobile-nav {
-    display: block;
-  }*/
+
+.leftnav li a{
+	color: black;
+opacity: 0.3;
+}
+
+.dropdown-menu{
+	left:0;
+	
+}
+
+.dropdown a{
+text-align: left;
+
+}
 
  
 
