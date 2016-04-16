@@ -1,4 +1,4 @@
-html {
+/*html {
     background-color: #ECECEA;
     font-family: Arial;
 }
@@ -7,7 +7,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #ECECEA;
-}
+}*/
 
 /*header {
     font-size: 22px;
@@ -125,11 +125,11 @@ p {
     display: block;} 
 
 .carousel {
-    width: 550px;
-    height: 240px;
-    margin-left: 400px;
-    margin-top:152px;
-    margin-bottom:-14px;
+   /* width: 550px;*/
+    height: 300px;
+    /*margin-left: 400px;*/
+    margin-top:142px;
+    margin-bottom:-20px;
 }
 
 .carousel-inner > .item > img,
