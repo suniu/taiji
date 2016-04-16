@@ -1,62 +1,167 @@
 <!DOCTYPE html>
+
+
 <html>
-<head>    
-<title>Tai Chi</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="taichi.css">
+<head >
+	
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 
+	<title>Tai Chi</title>
 </head>
 
+
 <body>
-<div>
-<header>
-<a href="http://www.calvinlin1.github.io/taichi-project/">Calvin Lin's Youth Tai Chi Club</a>
-</header>
-<div>
 <nav>
-<ul>
-    <li class="logo"><a href="index.html">Home</a></li>
-    <li class="logo"><a href="classes.html">
-    <div class="dropdown"><span class="logo">Classes</span><div class="dropdown-content">
-    Youth Tai Chi Club</div><div class="dropdown-content">Yang Style (24 Form)</div><div class="dropdown-content">Chen Style</div></div></a></li>
-    <li class="logo"><a href="instructor.html">Instructor</a></li>
-    <li class="logo"><a href="equipments.html">Equipments</a></li>
-    <li class="logo"><a href="contacts.html">Contact</a></li>
-    </ul>
-    </nav>
-    </div>
+      <a class="navbar-brand" href="index.html">
+      <img  src="img/logo4.jpg" alt="Brand"></a>
+<ul class="nav nav-pills">  
+  
+ 
+   <ul class="nav navbar-nav navbar-right">
+        <li class="rtab"><a href="signin.html"><i class="fa fa-user"></i></a></li>
+        <li class="rtab"><a href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+              
+      
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-bars" ></i> <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="instructor.html">Instructor</a></li>
+      <li><a href="equipments.html">Equipments</a></li>
+      <li><a href="contacts.html">Contact</a></li>
+     </ul></li>
+
+  </ul>
+    
+    <ul class="nav nav-tabs leftnav">
+  <li role="presentation" ><a href="signin.html"><i class="fa fa-user"></i></a></li>
+  <li role="presentation"><a href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+              
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-bars" ></i> <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="instructor.html">Instructor</a></li>
+      <li><a href="equipments.html">Equipments</a></li>
+      <li><a href="contacts.html">Contact</a></li>
+     </ul></li>
+
+  </ul>
+   
+ </ul>
+</nav>
+
+<div id="myCarousel" class="carousel slide" style="height:300px; margin: 0 auto">
 
 
-<h1>Equipments</h1>
-<h2 class="equipment-title"><div class="equipments">
-Shoes
 
-<img src="http://www.icnbuys.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/o/double_star_tai_chi_shoes_pu_leather_tai_chi_pattern_black_1_1.jpg" class="accessories">
-
-<img src="http://g03.a.alicdn.com/kf/HTB1IGJfIXXXXXanXpXXq6xXFXXXA/2015-Flat-Comfortable-Beijing-Shoes-Sport-Slip-resistant-Breathable-Wushu-Kung-Fu-Tai-Chi-Shoes-Men.jpg" class="accessories"><br><br>
-
-Uniforms
-
-<img src="http://ecx.images-amazon.com/images/I/41RChmAozaL._SX355_.jpg" class="accessories">
-<img src="http://www.dragonsports.eu/117681-verylarge_default/tai-chi-uniform-satin.jpg" class="accessories">
+  
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    <!--    <li data-target="#myCarousel" data-slide-to="3"></li> -->
+   </ol>   
+  
+   <div class="carousel-inner" role="listbox">
+      <div class="item active">
+         <a href="#shoe-s"><img class="inner-img special-img1" src="img/shoe.jpg" alt="First slide"></a>
+         <div class="carousel-caption"><h4>Shoes</h4></div>
+      </div>
+     
+      <div class="item">
+         <a href="#uniform-s"><img class="inner-img" src="img/uniform-black.jpg" alt="Second slide"></a>
+         <div class="carousel-caption"><h4>Uniform</h4></div>
+      </div>
+       <div class="item">
+         <a href="#dvd-s"><img class="inner-img special-img2" src="img/dvd9.jpg" alt="Third slide">
+         <div class="carousel-caption"><h4>DVD</h4></div>
+      </div>
+       <!-- <div class="item">
+         <img class="inner-img" src="img/sword.jpg" alt="Fourth slide">
+         <div class="carousel-caption">Sword</div>
+      </div> -->
+   </div>
+  
+   <a class="carousel-control left" href="#myCarousel" role="button"
+      data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span></a>
+   <a class="carousel-control right" href="#myCarousel" role="button"
+      data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+      </a>
+</div> 
 
 <br><br>
 
-Weapons
-<img src="http://www.icnbuys.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/a/tai_chi_sword_hand_made_chinese_standard_wushu_tai_chi_sowrd_4.jpg" class="accessories">
-<img src="http://img.alibaba.com/wsphoto/v0/444420711/Bamboo-Fan-with-Yin-Yang-Design-Tai-Chi-Fan-craft-fan-martial-arts-fan-Kung-Fu.jpg" class="accessories"><br><br>
+<div class="row" >
 
-DVDs
-<img src="http://i.ytimg.com/vi/P4Z4sQNQtJM/hqdefault.jpg" class="accessories">
-<img src="http://taichivideos.org/wp-content/uploads/2012/08/24-form.jpg" class="accessories">
-</div></h2>
-    
-    <div class="footer"><h3>Other helpful links:<br>
+<h2><a name="shoe-s">Shoes</a></h2>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/shoe.jpg"><h4>Leather Shoes</h4></div>  
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/shoe2.jpg"><h4>Rubber-soled Shoes</h4></div>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/shoe6.jpg"><h4>Fibric Shoes</h4></div>
+   <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/shoe5.jpg"><h4>Special Shoes</h4></div>
+</div>
+<br>
+<div class="row">
+<h2><a name="uniform-s">Uniforms</a></h2>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/boy-uniform2.jpg"><h4>Children Uniform</h4></div>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/women-uniform3.jpg"><h4>Adult Uniform</h4></div>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/senior-men-uniform.jpg"><h4>Senior Uniform</h4></div>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/cloth2.jpg"><h4>Showtime Uniform</h4></div>
+</div>
+<br>
+<div class="row" >
+
+<h2><a name="dvd-s">DVDs</a></h2>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/dvd8.jpg"><h4>Wu Shu</h4></div>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/dvd4.jpg"><h4>Precerving Health</h4></div>
+  <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/dvd7.jpg"><h4>Tai Chi</h4></div>
+   <div><img class="col-md-4 col-sm-6 col-xs-12" src="img/dvd5.jpg"><h4>Showtime</h4></div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+ 
+
+  <div class="footer">
+    <!-- <h3>Other helpful links:<br>
     <a href="http://shouyuliang.com/" target="_blank">shouyuliang.com<br>
     <a href="http://www.myuna.ca/about-us/neighbourhoods/wesbrook-place/wbcc/" target="_blank">Wesbrook Community Center
-    </h3></div>
+    </h3> -->
     
+ 
+
+ <h5>Youth Tai Chi:</h5>
+
+ <h5>Location: Wesbrook Community Center (3335 Webber Lane)</h5>
+
+<h5>Register: </h5>
+<h5>Phone: 604-827-5158 (Wesbrook Community Center)</h5>
+<h5>Online Registration (Course code: 12049)</h5>
+<br>
+  <h5>Other useful links:<br>
+  <a href="http://shouyuliang.com/" target="_blank">ShouyuLiang.com<br>
+    <a href="http://www.myuna.ca/about-us/neighbourhoods/wesbrook-place/wbcc/" target="_blank">Wesbrook Community Center</h5>
+  <!-- <a href="http://shouyuliang.com/">ShouyuLiang.com</a>
+  <a href="http://www.myuna.ca/about-us/neighbourhoods/wesbrook-place/wbcc/">UNIVERSITY NEIGHBOURHOODS ASSOCIATION</a> <br> -->
+  <h5>@ Copyright Calvin Lin's Youth Tai Chi Club, all rights reserved.</h5>
+    </div>
+
+
 </body>
 </html>
