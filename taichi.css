@@ -1,0 +1,272 @@
+html {
+    background-color: #ECECEA;
+    font-family: Arial;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ECECEA;
+}
+
+/*header {
+    font-size: 22px;
+    width: 100%;
+    font-family: Lato;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: red;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    margin-top: 0px;
+}*/
+
+/*ul {
+    padding: 0px;}
+*/
+
+/*nav, ul {
+    width: 100%;
+    margin-bottom: 0px;
+}*/
+
+/*li {
+    font-size: 20px;
+    width: 19.55%;
+    padding-left: 0px;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center; 
+}
+
+li a {
+    text-decoration: none;
+    padding: 1px;
+    transition: background-color 0.7s; 
+    text-align: center;
+    }
+
+li a:hover {
+    background-color: white;
+    width: 10px;
+    top: 20px;}*/
+
+h1 {
+    color:red;
+    font-size:50px;
+    text-align: center;
+    font-family: Lobster;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    left: 20px;
+    margin-top:22px;
+    z-index:-200px;
+}
+
+.equipment-title {
+    margin-bottom: 0px;}
+
+.contact {
+    margin-top: 120px;
+    margin-left: 11px;
+}
+
+.logo {
+    position: relative;}
+
+p {
+    font-size:200%; 
+    color: green;
+}
+
+.introduction-styles {
+    font-size: 150%;
+    padding-left: 10px;
+    margin-left:5px;
+    margin-right: 8px;
+}
+
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index:100;
+}
+
+.dropdown-content {
+    background-color: black;
+    min-width: 222px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    left: -71px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 6px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    text-decoration:underline;
+}*/
+
+.hover-content {
+    display: none;
+    z-index: 100px;
+}
+
+.onhover:hover .hover-content {
+    display: block;} 
+
+.carousel {
+    width: 550px;
+    height: 240px;
+    margin-left: 400px;
+    margin-top:152px;
+    margin-bottom:-14px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin: auto;
+  }
+
+
+h2 {
+    color:blue; 
+    font-size:200%; 
+    margin-top: 180px;
+} 
+
+.class-title {
+    text-align:center;
+    font-size: 112%;
+}
+
+.equipment-title {
+    margin-top: 130px;}
+
+.inline-wrapper div{
+    display: inline-block;
+    width: 33.026%;
+    position: relative; 
+    align-content: center;
+    margin-top: 50px;
+}
+
+.inline-wrapper div img {
+    width: 100%;
+    height: 300px;
+    transition: opacity 0.5s;
+    opacity: 0.6;
+}
+
+
+.inline-wrapper div h2 {
+    position: absolute;
+    top: 35%;
+    transition: opacity .5s;
+    text-align:center;
+    width: 100%;
+    opacity: 0.5;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-family: kaiti;
+}
+
+.inline-wrapper div:hover h2{
+    transition: 2s;
+    opacity: 1;
+    font-size: 45px;
+    margin: 3px;
+} 
+
+.inline-wrapper div:hover img{
+    transition: 2s; 
+    opacity: 0.3;
+} 
+
+.topic {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.pic-class {
+    margin-bottom: 10px;
+}
+
+
+
+.go-back {
+    margin-top: 65px;}
+
+.class-menu {
+    margin-top: 185px;
+    margin-left: 10px;
+    width: 200px;
+    background-color: #E8D8D3;
+}
+
+.class-menu-list {
+   width: 200px;
+   text-align: left; 
+}
+
+.poster {
+    height: 514px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.youth-tai-chi-club {
+    column-count: 2;
+    -webkit-column-count: 2;
+    font-size: 19px;
+    margin-top: 65px;
+}
+
+.classes:hover {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.equipments {
+    column-count: 4;
+    -webkit-column-count: 4;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.accessories {
+    width: 100%;
+    height: 200px;
+}
+
+.awards {
+    margin-left:10px;
+    padding-left: 10px;
+}
+
+.footer {
+    background-color: rgba(13, 9, 6, 0.9); 
+    text-align: left;
+    color: rgba(246, 242, 233, 0.95);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 120%;
+}
+
+.footer a{
+   color: rgba(246, 242, 233, 0.95);
+}
